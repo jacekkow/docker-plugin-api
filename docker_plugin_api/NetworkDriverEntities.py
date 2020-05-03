@@ -51,7 +51,7 @@ class EndpointCreateEntity:
         self.Options = Options
 
 
-class EndpointOperInfo:
+class EndpointOperInfoEntity:
     def __init__(self, NetworkID: str, EndpointID: str):
         self.NetworkID = NetworkID
         self.EndpointID = EndpointID
