@@ -96,3 +96,19 @@ class DiscoverDeleteEntity:
 
         self.DiscoveryType = DiscoveryType
         self.DiscoveryData = DiscoveryData
+
+
+class ProgramExternalConnectivityEntity:
+    def __init__(self, NetworkID: str, EndpointID: str, Options: dict = None):
+        if Options is None:
+            Options = {}
+
+        self.NetworkID = NetworkID
+        self.EndpointID = EndpointID
+        self.Options = Options
+
+
+class RevokeExternalConnectivityEntity:
+    def __init__(self, NetworkID: str, EndpointID: str):
+        self.NetworkID = NetworkID
+        self.EndpointID = EndpointID
