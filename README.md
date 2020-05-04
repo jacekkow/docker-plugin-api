@@ -11,5 +11,9 @@ It currently contains entities for:
 
 ## Examples
 
-Check out https://github.com/jacekkow/docker-plugin-ipam
-for a real-life plugin that uses this API.
+Check out following real-life plugins that utilize this package:
+
+| Plugin | Type | URL |
+| ------ | ---- | --- |
+| jacekkow/pyipam | IpamDriver | https://github.com/jacekkow/docker-plugin-pyipam |
+| jacekkow/pyveth | NetworkDriver | https://github.com/jacekkow/docker-plugin-pyveth |
